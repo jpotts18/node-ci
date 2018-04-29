@@ -21,6 +21,7 @@
 Codecov: https://codecov.io/#features
 
 Coveralls: https://coveralls.io/features
+* `npm install coveralls --save-dev`
 
 Codeclimate: https://codeclimate.com/features
 
@@ -41,3 +42,6 @@ Swagger
 Precommit hooks - http://codeinthehole.com/tips/tips-for-using-a-git-pre-commit-hook/
 
 https://hackernoon.com/the-ultimate-list-of-javascript-tools-e0a5351b98e3
+
+
+### Continuous Integration
