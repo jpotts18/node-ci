@@ -9,8 +9,6 @@ cache:
 notifications:
   email:
     - PalBubbles@mailinator.com
-    # on_success: never
-
 
 # notifications:
 #   slack:

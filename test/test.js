@@ -1,5 +1,5 @@
 var expect = require('chai').expect
-var math = require('../simpleMath')
+var math = require('../src/simpleMath')
 
 // http://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html
 
