@@ -20,3 +20,12 @@ phases:
 # artifacts:
 #   files:
 #     - HelloWorld.js
+
+# Build Triggers
+# - Nightly Builds
+# Artifacts on S3
+# Cloudwatch Logs
+# Build Badges
+
+# SNS State changes
+# https://docs.aws.amazon.com/codebuild/latest/userguide/sample-build-notifications.html
