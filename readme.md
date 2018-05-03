@@ -45,3 +45,34 @@ https://hackernoon.com/the-ultimate-list-of-javascript-tools-e0a5351b98e3
 
 
 ### Continuous Integration
+
+## Github management
+ * Locked branches etc.
+ * PR Templates
+
+
+## Jenkins
+
+* Docker Container
+`docker run -p 8080:8080 jenkins/jenkins:lts`
+* Password echoed out after build or in a document on the server
+
+* Configure Plugins
+
+* Configure Credentials
+
+## AWS CodeBuild
+
+* Project Name: node-ci
+* Source Provider: Github
+* Repository: Use Public or (From My Account):
+* Choose a Repo: node-ci
+* Git Clone Depth: 1
+* Branch Filter: Empty = All
+* Environment Image: (AWS Managed) or Docker
+* OS
+* Run Time: NodeJs
+* Build Specification: Use Buildspec.yml
+* Artifacts: No
+* Cache: No
+* Service Role: Make a new one

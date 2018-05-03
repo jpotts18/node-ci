@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Instaling node modules...
+      - npm install
+  pre_build:
+    commands:
+      - echo Prebuild command here...
+  build:
+    commands:
+      - echo Build started on `date`
+      - npm test
+      - echo "Running ESLint..."
+      - node_modules/.bin/eslint .
+  post_build:
+    commands:
+      - echo Build completed on `date`
+# artifacts:
+#   files:
+#     - HelloWorld.js
