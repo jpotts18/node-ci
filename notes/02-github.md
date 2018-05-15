@@ -8,7 +8,9 @@
 
 * Repo > Settings > Branches
 * Default branch: master
-* Branch Protection Rules: Reviewer Count, Require Checks
+* Branch Protection Rules:
+  * Require Checks
+  * Reviewer Count(works if you have more than one contributor),
 
 ## Github Pages
 * PUBLIC
