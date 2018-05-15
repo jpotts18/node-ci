@@ -1,7 +1,14 @@
 ## Github
 * Protected branches
+
 * Issue Templates
 * PR Templates
+
+## Protected branches
+
+* Repo > Settings > Branches
+* Default branch: master
+* Branch Protection Rules: Reviewer Count, Require Checks
 
 ## Github Pages
 * PUBLIC
