@@ -1,10 +1,9 @@
-1. Local development
+## Step 1: Local development
+  * Unit Tests  
+  * Linting
+  * Functionality
 
-* Unit Tests
-* Linting
-* Functionality
-
-1. Pull Request
+## Step 2: Pull Request
 
 * Package Install
 * Test Execution
@@ -12,7 +11,7 @@
 * Linting
 * Comments
 
-1. Merge to Master
+## Step 3:  Merge to Master
 
 * Package install
 * Build
@@ -20,7 +19,7 @@
 * Create release
 * Push to Feed
 
-1. Deployment
+## Step 4: Deployment
 
 * Pick from Feed
 * Testing / Staging
