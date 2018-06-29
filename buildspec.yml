@@ -17,7 +17,6 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - history
 # artifacts:
 #   files:
 #     - HelloWorld.js
